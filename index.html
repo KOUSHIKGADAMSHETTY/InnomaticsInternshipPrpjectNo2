@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>🎮 Memory Match Game 🧠</h1>
+    </header>
+
+    <!-- Landing Page -->
+    <div class="landing-page">
+        <h2>Welcome to Memory Match Game!</h2>
+        <div class="categories">
+            <button class="category-btn" data-category="fruits">🍎 Fruits</button>
+            <button class="category-btn" data-category="emojis">😀 Emojis</button>
+            <button class="category-btn" data-category="animals">🐶 Animals</button>
+            <button class="category-btn" data-category="planets">🪐 Planets</button>
+            <button class="category-btn" data-category="currencies">💰 Currency</button>
+        </div>
+    </div>
+
+    
+
+    <!-- Game Container -->
+    <div class="game-container hidden">
+        <div class="game-header">
+            <span class="score">Score: <span id="score-value">0</span></span>
+            <span class="timer">Time: <span id="time-value">30</span>s</span>
+        </div>
+        <div class="card-grid"></div>
+        <button class="restart-btn">🔄 Restart</button>
+        <button class="back-btn">🏠 Back to Home</button>
+    </div>
+<body style="background-image: url('memory.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2025 Memory Match Game. Have Fun Playing! 🎉</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
